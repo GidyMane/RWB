@@ -92,15 +92,15 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                 Turning Complex Data into clear, 
+                <Br /> actionable insights
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{' '}
-                build intuitive SaaS products with speed.
+                Unlock the power of data with our  <Em> MIS and Visualization Dashboard</Em>
+                <Br/> designed to simplify insights, enhance efficiency, and support smarter, data-driven decisions for your business. <Br />{' '}
+                
               </FallInPlace>
             }
           >
