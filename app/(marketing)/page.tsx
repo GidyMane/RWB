@@ -170,7 +170,7 @@ const HeroSection: React.FC = () => {
           {
             title: 'Accessible',
             icon: FiSmile,
-            description: 'All components strictly follow WAI-ARIA standards.',
+            description: 'Our MIS and Visualization Dashboard is built with accessibility in mind, ensuring that data insights are easily accessible to all users, anytime, anywhere, on any device.',
             iconPosition: 'left',
             delay: 0.6,
           },
@@ -178,7 +178,7 @@ const HeroSection: React.FC = () => {
             title: 'Themable',
             icon: FiSliders,
             description:
-              'Fully customize all components to your brand with theme support and style props.',
+              'Our MIS and Visualization Dashboard is fully customizable to fit your unique needs. Tailor dashboards, reports, and visuals to highlight the data that matters most, giving you a personalized experience that aligns with your business goals and priorities.',
             iconPosition: 'left',
             delay: 0.8,
           },
@@ -186,7 +186,7 @@ const HeroSection: React.FC = () => {
             title: 'Composable',
             icon: FiGrid,
             description:
-              'Compose components to fit your needs and mix them together to create new ones.',
+              'Our MIS and Visualization Dashboard is designed to be composable, allowing you to build and integrate only the components you need. Easily add, rearrange, and connect different modules to create a dashboard that adapts to your workflows and grows with your business',
             iconPosition: 'left',
             delay: 1,
           },
@@ -194,7 +194,7 @@ const HeroSection: React.FC = () => {
             title: 'Productive',
             icon: FiThumbsUp,
             description:
-              'Designed to reduce boilerplate and fully typed, build your product at speed.',
+              'Boost productivity with our MIS and Visualization Dashboard—designed to streamline data access and analysis, helping teams make faster, more informed decisions. Spend less time sifting through data and more time driving impactful results',
             iconPosition: 'left',
             delay: 1.1,
           },
