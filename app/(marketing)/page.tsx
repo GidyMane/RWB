@@ -210,13 +210,11 @@ const HighlightsSection = () => {
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Core components">
+      <HighlightsItem colSpan={[1, null, 2]} title="MIS Functionalities">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Get started for free with <Em>30+ open source components</Em>.
-            Including authentication screens with Clerk, Supabase and Magic.
-            Fully functional forms with React Hook Form. Data tables with React
-            Table.
+          Our MIS provides essential functionalities like data integration, in-depth reporting, performance monitoring, and secure data management, all in one platform. <Em>Gain a 360° view</Em>.
+          of your operations to make data-driven decisions with confidence
           </Text>
 
           <Flex
@@ -235,7 +233,7 @@ const HighlightsSection = () => {
                 yarn add
               </Text>{' '}
               <Text color="cyan.300" display="inline">
-                @saas-ui/react
+                @smart-mis/react
               </Text>
             </Box>
             <IconButton
@@ -250,38 +248,46 @@ const HighlightsSection = () => {
           </Flex>
         </VStack>
       </HighlightsItem>
-      <HighlightsItem title="Solid foundations">
+      <HighlightsItem title="Dashboard Functionalities">
         <Text color="muted" fontSize="lg">
-          We don&apos;t like to re-invent the wheel, neither should you. We
-          selected the most productive and established tools in the scene and
-          build Saas UI on top of it.
+        Our dashboard delivers powerful functionalities, including interactive data visualization, real-time analytics, and customizable widgets, all designed to help you monitor KPIs and trends at a glance. Easily drill down into data, set alerts, and track progress—all in one intuitive interface tailored for actionable insights.
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Renata Alink"
+        name="Bosco Ndeka"
         description="Founder"
         avatar="/static/images/avatar.jpg"
         gradient={['pink.200', 'purple.500']}
       >
-        “Saas UI helped us set up a beautiful modern UI in no time. It saved us
-        hundreds of hours in development time and allowed us to focus on
-        business logic for our specific use-case from the start.”
+        “Our MIS and dashboards have empowered organizations to streamline operations, make informed decisions faster, and boost overall productivity. By providing clear, actionable insights and reducing time spent on manual data processes, we've helped teams achieve greater focus on strategic initiatives and drive impactful results.”
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
-        title="Start your next idea two steps ahead"
+        title="Achieve your next idea"
       >
         <Text color="muted" fontSize="lg">
-          We took care of all your basic frontend needs, so you can start
-          building functionality that makes your product unique.
+        We've equipped you with all the core MIS and dashboard functionalities, enabling you to concentrate on creating the distinctive features that will differentiate your organization.
         </Text>
         <Wrap mt="8">
           {[
-            'authentication',
-            'navigation',
-            'crud',
-            'settings',
-            'multi-tenancy',
+            ' Statistics and Analytics',
+            ' User Authentication',
+            'Data Integration',
+            'Real-time Monitoring',
+            'Customizable Dashboards',
+            'Data Exporting',  
+             'Alerts and Notifications',
+             'Collaboration Tools',
+             'Historical Data Analysis',
+             'Data Visualization',
+             'Mobile Access',
+             'Custom Reporting',
+             'Performance Benchmarking ',
+             'Data Filtering',
+             'Audit Trail',
+             'User Training and Support',
+             'API Access',
+             'Feedback Mechanism',
             'layouts',
             'billing',
             'a11y testing',
