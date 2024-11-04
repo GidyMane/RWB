@@ -19,17 +19,17 @@ const siteConfig = {
         id: 'features',
         label: 'Features',
       },
-      {
-        id: 'pricing',
-        label: 'Pricing',
-      },
+      // {
+      //   id: 'pricing',
+      //   label: 'Pricing',
+      // },
       {
         id: 'faq',
         label: 'FAQ',
       },
       {
         label: 'Login',
-        href: '/login',
+        href: '#',
       },
       // {
       //   label: 'Sign Up',
