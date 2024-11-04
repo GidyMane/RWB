@@ -9,7 +9,7 @@ const siteConfig = {
   logo: Logo,
   seo: {
     title: 'Saas UI',
-    description: 'The React component library for startups',
+    description: '',
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
@@ -42,7 +42,7 @@ const siteConfig = {
     copyright: (
       <>
         Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        <Link href="https://twitter.com/Pagebakers">RoseWill Bome</Link>
       </>
     ),
     links: [
