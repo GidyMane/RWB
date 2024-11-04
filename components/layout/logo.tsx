@@ -1,39 +1,15 @@
-import { Box, Flex, Heading, VisuallyHidden } from '@chakra-ui/react'
-import { Link } from '@saas-ui/react'
+import { chakra, HTMLChakraProps } from '@chakra-ui/react';
+import Image from 'next/image';
 
-import * as React from 'react'
-
-import siteConfig from '#data/config'
-
-export interface LogoProps {
-  href?: string
-  onClick?: (e: React.MouseEvent<HTMLAnchorElement>) => void
-}
-
-export const Logo = ({ href = '/', onClick }: LogoProps) => {
-  let logo
-  if (siteConfig.logo) {
-    logo = <Box as={siteConfig.logo} height="32px" mt="-4px" />
-  } else {
-    logo = (
-      <Heading as="h1" size="md">
-        {siteConfig.seo?.title}
-      </Heading>
-    )
-  }
-
+export const Logo: React.FC<HTMLChakraProps<'div'>> = (props) => {
   return (
-    <Flex h="8" flexShrink="0" alignItems="flex-start">
-      <Link
-        href={href}
-        display="flex"
-        p="1"
-        borderRadius="sm"
-        onClick={onClick}
-      >
-        {logo}
-        <VisuallyHidden>{siteConfig.seo?.title}</VisuallyHidden>
-      </Link>
-    </Flex>
-  )
-}
+    <chakra.div {...props}>
+      <Image 
+        src="/static/favicons/2.svg" 
+        alt="Logo" 
+        width={150} // Adjust the width as needed
+        height={50} // Adjust the height as needed
+      />
+    </chakra.div>
+  );
+};
