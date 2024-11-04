@@ -329,12 +329,12 @@ const FeaturesSection = () => {
           as="p"
         >
           Not your standard
-          <Br /> dashboard template.
+          <Br /> MIS System.
         </Heading>
       }
       description={
         <>
-          Saas UI Pro includes everything you need to build modern frontends.
+          Our system includes everything you need to build modern frontends.
           <Br />
           Use it as a template for your next product or foundation for your
           design system.
