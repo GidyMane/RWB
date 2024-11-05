@@ -1,40 +1,34 @@
 export default {
-  title: 'Loved by tech people',
+  title: 'Trusted by Data-Driven Teams',
   items: [
     {
-      name: 'Eelco Wiersma',
-      description: 'Founder Saas UI',
+      name: 'Alex Turner',
+      description: 'Operations Manager',
       avatar:
         'https://pbs.twimg.com/profile_images/1470742164024008706/k-eXHtu0_normal.jpg',
       children: (
         <>
-          “With SaaS UI I am able to produce high quality dashboard apps and
-          internal tools without a lot of design skills. The ROI really is
-          amazing.”
+          “This MIS system has transformed how we approach our data. The custom dashboards provide clear, actionable insights that help us make informed decisions daily. Truly a game-changer for our operations.”
         </>
       ),
     },
     {
-      name: 'Caroline Yahaya',
-      description: 'Fullstack Developer',
+      name: 'Samantha Lee',
+      description: 'Product Manager',
       avatar: '/static/images/avatar2.jpg',
       children: (
         <>
-          “Saas UI allows me to build beautiful and functional UI super fast.
-          The components are very well thought out and the Next.js starter kit
-          saved me at least 100 hours of work.”
+          “The level of customization in these dashboards is incredible. Our team now has access to real-time data visualizations that are tailored exactly to our needs. The whole process from setup to execution was seamless.”
         </>
       ),
     },
     {
-      name: 'Alberto Vazquez',
-      description: 'Frontend Engineer',
+      name: 'John Martinez',
+      description: 'Chief Technology Officer',
       avatar: '/static/images/avatar3.jpg',
       children: (
         <>
-          “Saas UI gave us a perfect starting point for our project, having the
-          storybooks already set up with beautifully crafted components and
-          fully mocked pages was a treat.”
+          “The MIS system is well-designed and intuitive. It’s enabled our team to consolidate data and generate insights faster than ever. The scalability means it grows with us, and it’s proven to be a solid investment for the future.”
         </>
       ),
     },
