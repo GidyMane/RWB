@@ -36,8 +36,7 @@ const Login: NextPage = () => {
         borderColor="gray.200"
         _dark={{
           borderColor: 'gray.700',
-        }}
-      />
+        }} hideOverlay={undefined}      />
       <PageTransition height="100%" display="flex" alignItems="center">
         <Stack
           width="100%"

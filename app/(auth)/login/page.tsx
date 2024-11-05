@@ -23,7 +23,7 @@ const providers = {
 const Login: NextPage = () => {
   return (
     <Section height="calc(100vh - 200px)" innerWidth="container.sm">
-      <BackgroundGradient zIndex="-1" />
+      <BackgroundGradient zIndex="-1" hideOverlay={undefined} />
 
       <Center height="100%" pt="20">
         <PageTransition width="100%">
