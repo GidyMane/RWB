@@ -328,16 +328,16 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Not your standard
-          <Br /> MIS System.
+          A Revolutionary
+          <Br /> MIS Dashboard Solution.
         </Heading>
       }
       description={
         <>
-          Our system includes everything you need to build modern frontends.
+          Our cutting-edge system empowers you to harness data with ease,
+          offering dynamic visualizations and intuitive design.
           <Br />
-          Use it as a template for your next product or foundation for your
-          design system.
+          Get the full picture of your operations, all in one place.
         </>
       }
       align="left"
@@ -345,69 +345,69 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: '#components.',
+          title: 'Interactive Dashboards.',
           icon: FiBox,
           description:
-            'All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.',
+            'Visualize your data with rich, interactive dashboards designed to keep you informed in real time. Gain deeper insights, faster.',
           variant: 'inline',
         },
         {
-          title: 'Starterkits.',
+          title: 'Customizable Reports.',
           icon: FiLock,
           description:
-            'Example apps in Next.JS, Electron. Including authentication, billing, example pages, everything you need to get started FAST.',
+            'Generate and customize reports to track KPIs and performance metrics. Our templates are flexible, saving you time and effort.',
           variant: 'inline',
         },
         {
-          title: 'Documentation.',
+          title: 'Data Visualization Tools.',
           icon: FiSearch,
           description:
-            'Extensively documented, including storybooks, best practices, use-cases and examples.',
+            'From charts to graphs, our tools bring your data to life, helping you make data-driven decisions with clarity and confidence.',
           variant: 'inline',
         },
         {
-          title: 'Onboarding.',
+          title: 'User Access Controls.',
           icon: FiUserPlus,
           description:
-            'Add user onboarding flows, like tours, hints and inline documentation without breaking a sweat.',
+            'Assign roles and manage user permissions with ease, ensuring secure access to sensitive information across your organization.',
           variant: 'inline',
         },
         {
-          title: 'Feature flags.',
+          title: 'Seamless Data Integration.',
           icon: FiFlag,
           description:
-            "Implement feature toggles for your billing plans with easy to use hooks. Connect Flagsmith, or other remote config services once you're ready.",
+            'Integrate your existing data sources effortlessly, allowing for smooth data flow and a unified view of your operations.',
           variant: 'inline',
         },
         {
-          title: 'Upselling.',
+          title: 'Real-Time Monitoring.',
           icon: FiTrendingUp,
           description:
-            '#components and hooks for upgrade flows designed to make upgrading inside your app frictionless.',
+            'Stay updated with real-time monitoring and alerts, ensuring you never miss critical changes in your data landscape.',
           variant: 'inline',
         },
         {
-          title: 'Themes.',
+          title: 'Themes & Custom Styling.',
           icon: FiToggleLeft,
           description:
-            'Includes multiple themes with darkmode support, always have the perfect starting point for your next project.',
+            'Customize your dashboards with themes and dark mode support, tailoring the experience to your unique brand and preferences.',
           variant: 'inline',
         },
         {
-          title: 'Generators.',
+          title: 'Scalability.',
           icon: FiTerminal,
           description:
-            'Extend your design system while maintaininig code quality and consistency with built-in generators.',
+            'Built to grow with you, our MIS systems are scalable, accommodating increasing data and expanding team requirements effortlessly.',
           variant: 'inline',
         },
         {
-          title: 'Monorepo.',
+          title: 'High Performance.',
           icon: FiCode,
           description: (
             <>
-              All code is available as packages in a high-performance{' '}
-              <Link href="https://turborepo.com">Turborepo</Link>, you have full
-              control to modify and adjust it to your workflow.
+              Our systems are optimized for speed and efficiency. Powered by
+              <Link href="https://turborepo.com">Turborepo</Link>, experience
+              fast, seamless data access and updates at scale.
             </>
           ),
           variant: 'inline',
@@ -416,6 +416,7 @@ const FeaturesSection = () => {
     />
   )
 }
+
 
 const TestimonialsSection = () => {
   const columns = React.useMemo(() => {
