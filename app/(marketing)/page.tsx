@@ -217,7 +217,7 @@ const HighlightsSection = () => {
           of your operations to make data-driven decisions with confidence
           </Text>
 
-          <Flex
+          {/* <Flex
             rounded="full"
             borderWidth="1px"
             flexDirection="row"
@@ -245,7 +245,7 @@ const HighlightsSection = () => {
               isRound
               color="white"
             />
-          </Flex>
+          </Flex> */}
         </VStack>
       </HighlightsItem>
       <HighlightsItem title="Dashboard Functionalities">
