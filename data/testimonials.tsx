@@ -2,10 +2,10 @@ export default {
   title: 'Trusted by Data-Driven Teams',
   items: [
     {
-      name: 'Alex Turner',
+      name: 'Emma Lee',
       description: 'Operations Manager',
       avatar:
-        'https://pbs.twimg.com/profile_images/1470742164024008706/k-eXHtu0_normal.jpg',
+        '/static/favicons/em.jpg',
       children: (
         <>
           “This MIS system has transformed how we approach our data. The custom dashboards provide clear, actionable insights that help us make informed decisions daily. Truly a game-changer for our operations.”
@@ -13,7 +13,7 @@ export default {
       ),
     },
     {
-      name: 'Samantha Lee',
+      name: 'Nova Smith',
       description: 'Product Manager',
       avatar: '/static/images/avatar2.jpg',
       children: (
