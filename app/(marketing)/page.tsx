@@ -233,7 +233,7 @@ const HighlightsSection = () => {
                 yarn add
               </Text>{' '}
               <Text color="cyan.300" display="inline">
-                @smart-mis/react
+                @mis/react
               </Text>
             </Box>
             <IconButton
