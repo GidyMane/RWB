@@ -7,9 +7,10 @@ import {
   SimpleGrid,
   Stack,
   Text,
+  Image as ChakraImage,
+  useColorModeValue,
 } from '@chakra-ui/react'
 import { Link, LinkProps } from '@saas-ui/react'
-
 import siteConfig from '#data/config'
 
 export interface FooterProps extends BoxProps {
@@ -18,6 +19,10 @@ export interface FooterProps extends BoxProps {
 
 export const Footer: React.FC<FooterProps> = (props) => {
   const { columns = 2, ...rest } = props
+  
+  // Use useColorModeValue to switch images based on the color mode
+  const logoSrc = useColorModeValue('/static/favicons/1.png', '/static/favicons/2.png')
+
   return (
     <Box bg="white" _dark={{ bg: 'gray.900' }} {...rest}>
       <Container maxW="container.2xl" px="8" py="8">
@@ -25,7 +30,8 @@ export const Footer: React.FC<FooterProps> = (props) => {
           <Stack spacing="8">
             <Stack alignItems="flex-start">
               <Flex>
-                <Box as={siteConfig.logo} flex="1" height="32px" />
+                {/* Dynamically set the image source based on color mode */}
+                <ChakraImage src={logoSrc} alt="Home Icon" height="32px" />
               </Flex>
               <Text fontSize="md" color="muted">
                 {siteConfig.seo.description}
