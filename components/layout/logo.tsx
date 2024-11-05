@@ -7,8 +7,8 @@ export const Logo: React.FC<HTMLChakraProps<'div'>> = (props) => {
       <Image 
         src="/static/favicons/2.png" 
         alt="Logo" 
-        width={150} // Adjust the width as needed
-        height={50} // Adjust the height as needed
+        width={150} 
+        height={50} 
       />
     </chakra.div>
   );
