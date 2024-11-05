@@ -1,4 +1,4 @@
-import { transparentize, mode } from '@chakra-ui/theme-tools'
+import { transparentize, mode } from '@chakra-ui/theme-tools';
 
 const Features = {
   parts: ['container', 'title', 'description', 'icon'],
@@ -21,8 +21,7 @@ const Features = {
       mb: 3,
       mr: 3,
       p: 2,
-      bg: 'primary.400',
-      color: 'white',
+      color: 'orange.400', // Set icon color to orange
       float: 'left',
     },
   },
@@ -45,7 +44,7 @@ const Features = {
   defaultProps: {
     variant: 'subtle',
   },
-}
+};
 
 export const Feature = {
   parts: ['container', 'title', 'description', 'icon'],
@@ -69,11 +68,7 @@ export const Feature = {
       mb: 4,
       mr: 4,
       p: 2,
-      bg: mode(
-        'primary.100',
-        transparentize('primary.500', 0.2)(props.theme)
-      )(props),
-      color: mode('primary.700', 'primary.400')(props),
+      color: 'orange.400', // Set icon color to orange
       float: 'left',
     },
   }),
@@ -120,6 +115,6 @@ export const Feature = {
   defaultProps: {
     variant: 'default',
   },
-}
+};
 
-export default Features
+export default Features;
