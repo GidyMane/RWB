@@ -6,10 +6,10 @@ const CTA = {
       pb: 28,
     },
     action: {
-      colorScheme: 'primary',
+      colorScheme: 'orange', // Set primary action to orange color scheme
     },
     secondaryAction: {
-      colorScheme: 'primary',
+      colorScheme: 'orange', // Set secondary action to orange color scheme
       variant: 'ghost',
     },
   },
@@ -17,10 +17,10 @@ const CTA = {
     subtle: {},
     solid: {
       wrapper: {
-        bg: 'primary.400',
+        bg: 'orange.400', // Set solid variant background to orange
       },
       secondaryAction: {
-        colorScheme: 'white',
+        colorScheme: 'white', // Keep secondary action color scheme white in solid variant
       },
     },
     light: ({ colorMode }: any) => ({
@@ -32,6 +32,6 @@ const CTA = {
   defaultProps: {
     variant: 'subtle',
   },
-}
+};
 
-export default CTA
+export default CTA;
