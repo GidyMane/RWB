@@ -25,6 +25,7 @@ import {
   FiCheck,
   FiCode,
   FiCopy,
+  FiDownload,
   FiFlag,
   FiGrid,
   FiLock,
@@ -111,25 +112,29 @@ const HeroSection: React.FC = () => {
 
               <ButtonGroup spacing={4} alignItems="center">
               <button
-  style={{
-    backgroundColor: "#fb923c",
-    color: "white",
-    padding: "0.75rem 1.25rem",
-    fontSize: "1rem",
-    borderRadius: "0.25rem",
-    border: "none",
-    cursor: "pointer",
-  }}
-  onClick={(e) => {
-    e.preventDefault();
-    const link = document.createElement("a");
-    link.href = "/Portfolio.pdf";
-    link.download = "memo.pdf";
-    link.click();
-  }}
->
-  Portfolio
-</button>
+      style={{
+        backgroundColor: "#fb923c", // Tailwind's orange-400 equivalent
+        color: "white",
+        padding: "0.75rem 1.25rem",
+        fontSize: "1rem",
+        borderRadius: "0.25rem",
+        border: "none",
+        cursor: "pointer",
+        display: "flex",
+        alignItems: "center",
+        gap: "0.5rem", // Space between icon and text
+      }}
+      onClick={(e) => {
+        e.preventDefault();
+        const link = document.createElement("a");
+        link.href = "/Portfolio.pdf";
+        link.download = "memo.pdf";
+        link.click();
+      }}
+    >
+      <FiDownload size={20} /> {/* Add download icon */}
+      Download
+    </button>
 
                 <ButtonLink
                   size="lg"
