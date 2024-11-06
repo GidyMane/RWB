@@ -47,7 +47,7 @@ const siteConfig = {
     ),
     links: [
       {
-        href: 'mailto:muragegideon2000@gmail.com',
+        href: 'mailto:info@rosewillbome.com',
         label: 'Contact',
       },
       {
