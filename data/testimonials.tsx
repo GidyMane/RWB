@@ -15,7 +15,7 @@ export default {
     {
       name: 'Jebet Faith',
       description: 'Media consultant',
-      avatar: '/static/images/avatar2.jpg',
+      avatar: '/j.webp',
       children: (
         <>
           “The level of customization in these dashboards is incredible. Our team now has access to real-time data visualizations that are tailored exactly to our needs. The whole process from setup to execution was seamless.”
