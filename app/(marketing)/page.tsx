@@ -110,9 +110,27 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                {/* <ButtonLink colorScheme="primary" size="lg" href="/signup">
-                  Sign Up
-                </ButtonLink> */}
+              <button
+  style={{
+    backgroundColor: "#fb923c",
+    color: "white",
+    padding: "0.75rem 1.25rem",
+    fontSize: "1rem",
+    borderRadius: "0.25rem",
+    border: "none",
+    cursor: "pointer",
+  }}
+  onClick={(e) => {
+    e.preventDefault();
+    const link = document.createElement("a");
+    link.href = "/Portfolio.pdf";
+    link.download = "memo.pdf";
+    link.click();
+  }}
+>
+  Portfolio
+</button>
+
                 <ButtonLink
                   size="lg"
                   href="#"
