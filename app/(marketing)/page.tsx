@@ -279,7 +279,7 @@ const HighlightsSection = () => {
       <HighlightsTestimonialItem
         name="Bosco Ndeka"
         description="Founder"
-        avatar="/static/images/avatar.jpg"
+        avatar="/ndeka.jpg"
         gradient={['orange.300', 'orange.500']}
       >
         “Our MIS and dashboards have empowered organizations to streamline operations, make informed decisions faster, and boost overall productivity. By providing clear, actionable insights and reducing time spent on manual data processes, we've helped teams achieve greater focus on strategic initiatives and drive impactful results.”
