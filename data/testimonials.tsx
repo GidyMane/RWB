@@ -2,10 +2,10 @@ export default {
   title: 'Trusted by Data-Driven Teams',
   items: [
     {
-      name: 'Emma Lee',
-      description: 'Operations Manager',
+      name: 'Austin Murunga',
+      description: 'Chief Data Analyst',
       avatar:
-        '/static/favicons/em.jpg',
+        '/austo.jpg',
       children: (
         <>
           “This MIS system has transformed how we approach our data. The custom dashboards provide clear, actionable insights that help us make informed decisions daily. Truly a game-changer for our operations.”
@@ -13,8 +13,8 @@ export default {
       ),
     },
     {
-      name: 'Nova Smith',
-      description: 'Product Manager',
+      name: 'Jebet Faith',
+      description: 'Media consultant',
       avatar: '/static/images/avatar2.jpg',
       children: (
         <>
@@ -23,9 +23,9 @@ export default {
       ),
     },
     {
-      name: 'John Martinez',
+      name: 'Gideon Mane',
       description: 'Chief Technology Officer',
-      avatar: '/static/images/avatar3.jpg',
+      avatar: '/mn.jpg',
       children: (
         <>
           “The MIS system is well-designed and intuitive. It’s enabled our team to consolidate data and generate insights faster than ever. The scalability means it grows with us, and it’s proven to be a solid investment for the future.”
