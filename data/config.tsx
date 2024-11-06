@@ -1,9 +1,9 @@
-import { Button } from '@chakra-ui/react'
-import { Link } from '@saas-ui/react'
-import { NextSeoProps } from 'next-seo'
-import { FaGithub, FaTwitter } from 'react-icons/fa'
-import { FiCheck } from 'react-icons/fi'
-import { Logo } from './logo'
+import { Button } from '@chakra-ui/react';
+import { Link } from '@saas-ui/react';
+import { NextSeoProps } from 'next-seo';
+import { FaGithub, FaTwitter, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { FiCheck } from 'react-icons/fi';
+import { Logo } from './logo';
 
 const siteConfig = {
   logo: Logo,
@@ -19,10 +19,6 @@ const siteConfig = {
         id: 'features',
         label: 'Features',
       },
-      // {
-      //   id: 'pricing',
-      //   label: 'Pricing',
-      // },
       {
         id: 'faq',
         label: 'FAQ',
@@ -31,18 +27,12 @@ const siteConfig = {
         label: 'Login',
         href: '#',
       },
-      // {
-      //   label: 'Sign Up',
-      //   href: '/signup',
-      //   variant: 'primary',
-      // },
     ],
   },
   footer: {
     copyright: (
       <>
-        Built by{' '}
-        <Link href="#">RoseWill Bome</Link>
+        Built by <Link href="#">RoseWill Bome</Link>
       </>
     ),
     links: [
@@ -51,12 +41,20 @@ const siteConfig = {
         label: 'Contact',
       },
       {
-        href: '#',
+        href: 'https://x.com/rbometech?s=21',
         label: <FaTwitter size="14" />,
       },
+      // {
+      //   href: '#',
+      //   label: <FaGithub size="14" />,
+      // },
       {
-        href: '#',
-        label: <FaGithub size="14" />,
+        href: 'https://www.linkedin.com/company/rosewill-bome-technologies/',
+        label: <FaLinkedin size="14" />,
+      },
+      {
+        href: 'https://www.facebook.com/profile.php?id=61568283717463&mibextid=LQQJ4d',
+        label: <FaFacebook size="14" />,
       },
     ],
   },
@@ -88,6 +86,6 @@ const siteConfig = {
       },
     ],
   },
-}
+};
 
-export default siteConfig
+export default siteConfig;
