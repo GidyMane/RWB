@@ -21,7 +21,7 @@ export const Footer: React.FC<FooterProps> = (props) => {
   const { columns = 2, ...rest } = props
   
   // Use useColorModeValue to switch images based on the color mode
-  const logoSrc = useColorModeValue('/static/favicons/1.png', '/static/favicons/4.png')
+  const logoSrc = useColorModeValue('/dark.jpg', '/light.jpg')
 
   return (
     <Box bg="white" _dark={{ bg: 'gray.900' }} {...rest}>

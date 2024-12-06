@@ -32,7 +32,7 @@ const siteConfig = {
   footer: {
     copyright: (
       <>
-        Built by <Link href="#">RoseWill Bome</Link>
+        Built by <Link href="#">NDEKA OBAD SOLUTIONS</Link>
       </>
     ),
     links: [
