@@ -7,7 +7,7 @@ export const Logo: React.FC<HTMLChakraProps<'div'>> = (props) => {
   return (
     <chakra.div {...props}>
       <Image
-        src={colorMode === 'dark' ? '/light.jpg' : '/dark.jpg'}
+        src={colorMode === 'dark' ? '/static/favicons/4.png' : '/static/favicons/2.png'}
         alt="Logo"
         width={80}
         height={30}
